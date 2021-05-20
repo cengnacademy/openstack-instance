@@ -7,13 +7,6 @@ terraform {
   }
 }
 
-# Configure the OpenStack Provider
-provider "openstack" {
-  user_name   = var.username
-  password    = var.password
-  auth_url    = "http://openstack.local/identity"
-}
-
 # Instance Block
 resource "openstack_compute_instance_v2" "example" {
   name        = var.instance_name
