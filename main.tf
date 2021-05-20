@@ -9,7 +9,7 @@ terraform {
 
 # Configure the OpenStack Provider
 provider "openstack" {
-  user_name   = var.user
+  user_name   = var.username
   password    = var.password
   auth_url    = "http://openstack.local/identity"
 }

@@ -1,13 +1,10 @@
-variable "instance_name" {
-  default = "terraform-instance"
+variable "instance_name" {
 }
- 
-variable "instance_image" {
-  default = "debian"
+
+variable "instance_image" {
 }
- 
-variable "instance_flavor" {
-  default = "small"
+
+variable "instance_flavor" {
 }
 
 variable "username" {
